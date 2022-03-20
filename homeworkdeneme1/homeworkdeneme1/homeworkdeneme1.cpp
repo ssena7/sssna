@@ -21,7 +21,13 @@ void rotation(int array[], int arraysize)
 
 int main() {
 
+	
+		cout << array[i] << " ";
+	}
 
+	cout << endl;
+	cout << "Enter N for shift an array:" << endl;
+	cin >> N;
 
 	cout << "Enter direction for shift an array:" << endl;
 	cin >> direction;
